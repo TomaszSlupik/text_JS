@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.plus, .minus, .paint {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 42%;
+  font-size: 36px;
+  width: 100px;
+  height: 100px;
+}
+
+.minus, .paint {
+  margin: 5px;
+}
+
+p {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.gold {
+  color: gold;
+}
+
+.container {
+  text-align: center;
+}
+
+[class*='col'] {
+  border: 2px solid lime;
+}
+/*# sourceMappingURL=moj.css.map */
